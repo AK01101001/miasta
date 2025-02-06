@@ -1,0 +1,33 @@
+﻿<Window x:Class="kres.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kres"
+        mc:Ignorable="d"
+        Title="miasta" Height="294" Width="520">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Click="lewo">
+                <Image Width="50" Height="50" Source="obraz3.png" x:Name="zdjecie"></Image>
+            </Button>
+            <Image Source="obraz.png"></Image>
+            <StackPanel>
+                <TextBlock x:Name="nazwa"></TextBlock>
+                <TextBlock x:Name="kontynent"></TextBlock>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock x:Name="region"></TextBlock>
+                    <TextBlock x:Name="mieszkancy"></TextBlock>
+                </StackPanel>
+                
+
+
+            </StackPanel>
+            <Button Click="prawo">
+                <Image Width="50" Height="50" Source="obraz2.png"></Image>
+            </Button>
+        </StackPanel>
+        <TextBlock x:Name="polubienia"></TextBlock>
+        <Button x:Name="polub" Click="polubienie"></Button>
+    </StackPanel>
+</Window>
