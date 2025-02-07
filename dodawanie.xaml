@@ -1,0 +1,16 @@
+﻿<Window x:Class="kres.dodawanie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kres"
+        mc:Ignorable="d"
+        Title="dodawanie" Height="450" Width="800">
+    <StackPanel>
+        <TextBox x:Name="nazwa"></TextBox>
+        <TextBox x:Name="kontynent"></TextBox>
+        <TextBox x:Name="region"></TextBox>
+        <TextBox x:Name="miesszkancy"></TextBox>
+        <Button Click="zatwierdz">zatwiedź</Button>
+    </StackPanel>
+</Window>
